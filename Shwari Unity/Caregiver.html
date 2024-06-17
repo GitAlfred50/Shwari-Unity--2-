@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caregiver Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Caregiver Dashboard</h1>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="#" id="profile-link">Profile</a>
+            <a href="index.html" id="logout-link">Logout</a>
+        </div>
+        <div class="content">
+            <h2>Welcome, Caregiver</h2>
+            <div class="card" id="patients-card">
+                <h3>My Patients</h3>
+                <button id="view-patients-btn">View Patients</button>
+                <p id="patients-message" class="hidden">You have no patients assigned.</p>
+            </div>
+            <div class="card" id="schedule-card">
+                <h3>My Schedule</h3>
+                <button id="view-schedule-btn">View Schedule</button>
+                <p id="schedule-message" class="hidden">Please update your schedule.</p>
+            </div>
+            <div class="card" id="messages-card">
+                <h3>Messages</h3>
+                <button id="view-messages-btn">View Messages</button>
+                <p id="messages-message" class="hidden">You have no messages.</p>
+            </div>
+        </div>
+    </div>
+    <script src="Caregiver.js"></script>
+</body>
+</html>

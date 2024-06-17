@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #e6f7e6; /* Light green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.quotes-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card {
+    background: rgba(183, 210, 189, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    font-size: 1.5em;
+    color: #3c763d;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.author {
+    font-size: 1em;
+    color: #999;
+    text-align: right;
+    margin-top: 10px;
+}
